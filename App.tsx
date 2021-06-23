@@ -73,7 +73,6 @@ const App: React.FC = (): JSX.Element => {
       <ScrollView
         horizontal={true}
         pagingEnabled={true}
-        scrollEnabled
         snapToAlignment="center"
         showsHorizontalScrollIndicator={false}
         onScroll={(e) => {
